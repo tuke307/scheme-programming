@@ -4,7 +4,7 @@
 (define (print input)
   (display input)
   (newline)
-  )
+)
 
 (print "Hello_World")
 
@@ -13,9 +13,10 @@
 (define (fak x)
   (if (= x 0)
       1
-      (* x (fak (- x 1)))
-      )
+      (* x (fak (- x 1))
+    )
   )
+)
 
 (fak 10)
 
